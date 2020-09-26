@@ -1,6 +1,6 @@
 using IteratorInterfaceExtensions
 using TableTraitsUtils
-using DataStructures
+using OrderedCollections: OrderedDict
 import DataValues
 
 IteratorInterfaceExtensions.isiterable(x::DataFrame) = true
